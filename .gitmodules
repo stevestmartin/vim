@@ -25,3 +25,6 @@
 [submodule "bundle/rvm"]
 	path = bundle/rvm
 	url = https://github.com/tpope/vim-rvm.git
+[submodule "bundle/ragtag"]
+	path = bundle/ragtag
+	url = https://github.com/tpope/vim-ragtag.git
