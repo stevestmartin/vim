@@ -10,3 +10,12 @@
 [submodule "bundle/ir_black"]
 	path = bundle/ir_black
 	url = https://github.com/kemiller/vim-ir_black.git
+[submodule "bundle/rails"]
+	path = bundle/rails
+	url = https://github.com/tpope/vim-rails.git
+[submodule "bundle/rake"]
+	path = bundle/rake
+	url = https://github.com/tpope/vim-rake.git
+[submodule "bundle/bundler"]
+	path = bundle/bundler
+	url = https://github.com/tpope/vim-bundler.git
