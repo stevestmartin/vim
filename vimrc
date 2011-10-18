@@ -46,3 +46,6 @@ set background=dark               " Set background.
 colorscheme ir_black              " Color scheme.
 
 filetype plugin indent on		      " Turn on file type detection.
+
+" retag ctags for project and gems
+map <Leader>rt :!/usr/local/bin/ctags --extra=+f --exclude=.git --exclude=test --exclude=*.html --exclude=*.haml --exclude=Makefile --exclude=*.min.js --exclude=log -R * `rvm gemdir`/gems/*<CR><CR>
