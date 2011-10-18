@@ -46,3 +46,6 @@
 [submodule "bundle/autocomplpop"]
 	path = bundle/autocomplpop
 	url = git://github.com/clones/vim-autocomplpop.git
+[submodule "bundle/tabular"]
+	path = bundle/tabular
+	url = https://github.com/godlygeek/tabular.git
