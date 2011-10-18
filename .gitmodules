@@ -52,3 +52,6 @@
 [submodule "bundle/supertab"]
 	path = bundle/supertab
 	url = https://github.com/ervandew/supertab.git
+[submodule "bundle/l9"]
+	path = bundle/l9
+	url = git://github.com/slack/vim-l9.git
