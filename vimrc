@@ -50,4 +50,10 @@ filetype plugin indent on		      " Turn on file type detection.
 
 " retag ctags for project and gems
 map <Leader>rt :!/usr/local/bin/ctags --extra=+f --exclude=.git --exclude=test --exclude=*.html --exclude=*.haml --exclude=Makefile --exclude=*.min.js --exclude=log -R * `rvm gemdir`/gems/*<CR><CR>
+
+" flush command-t cash
 map <Leader>ct :CommandTFlush<CR><CR>
+
+" change zencoding default expansion
+let g:user_zen_expandabbr_key = '<c-e>' 
+let g:use_zen_complete_tag = 1
