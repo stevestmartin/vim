@@ -54,6 +54,9 @@ map <Leader>rt :!/usr/local/bin/ctags --extra=+f --exclude=.git --exclude=test -
 " flush command-t cash
 map <Leader>ct :CommandTFlush<CR><CR>
 
+" tagbar toggle display
+map <Leader>f :TagbarToggle<CR><CR>
+
 " change zencoding default expansion
 let g:user_zen_expandabbr_key = '<c-e>' 
 let g:use_zen_complete_tag = 1
